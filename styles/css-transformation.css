@@ -4,9 +4,9 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   .section {
-    background-color: #f2395a;
+    background-color: #3d385a;
     color: #fff;
-    height: 100vh;
+    height: calc(100vh - 114px);
     display: flex;
     justify-content: center;
     align-items: center;

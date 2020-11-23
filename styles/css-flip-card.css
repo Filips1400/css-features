@@ -3,12 +3,13 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .wrap{
-   width: 500px;
-   height: 500px;
+   width: 100%;
+   height: calc(100vh - 114px);
    display: flex;
    align-items: center;
    justify-content: center;
    margin: 0 auto;
+   background-color: #3d385a;
 }
 .card{
     width: 300px;
