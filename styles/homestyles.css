@@ -41,7 +41,7 @@
     border-bottom: 2px solid #c9c9c9;
 }
 .bottom_navigation{
-    width: 680px;
+    width: 900px;
     display: flex;
     justify-content: space-around;
     align-items: center;
