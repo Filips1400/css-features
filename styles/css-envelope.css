@@ -4,7 +4,7 @@
 }
 .section{
     background-color: #3d385a;
-    height: 100vh;
+    height: calc(100vh - 114px);
     display: flex;
     justify-content: center;
     align-items: center;
