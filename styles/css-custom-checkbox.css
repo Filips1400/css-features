@@ -24,11 +24,12 @@ label::before{
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #fff;
+    background-image: url('/img/checkbefore.png');
     vertical-align: middle;
     border-radius: 50%;
     transition: 0.2s;
     margin-right: 10px;
+    background-size: 100%;
 }
 input[type="checkbox"]:checked + label::before{
     background: url('/img/check.png');
