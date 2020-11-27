@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.input_box{
+    width: 100%;
+    height: calc(100vh - 114px);
+    background-color: #3d385a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    padding: left 20px;
+    margin-top: 10px;
+    color: #fff;
+}
+label::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label::before{
+    background: url('/img/check.png');
+    background-size: 100%;
+}
